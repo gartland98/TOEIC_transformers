@@ -29,15 +29,5 @@ test accuracy | 87.1 | 90.1 | 88.2 | 92.4 | 85.9 | 91.1
 I also used Roberta, and Albert models but I couldn't fine-tune Roberta models (I assume it's because I use small number (16, 32) as a batch. Roberta paper use batch size of 256, 2k and 8k) and Albert models shows lower performance compare to models above. Albert-xxlarge-v2 with epoch 5, batch 16 and le-5 shows the best accuracy which was 92.9/89 (train/test) by each.
 
 
-{
-    "1" : {
-        "question" : "Business experts predict that the upward trend is _ to continue until the end of next year.",
-        "answer" : "likely",
-        "1" : "potential",
-        "2" : "likely",
-        "3" : "safety",
-        "4" : "seemed"
-    }
-}
 
  
