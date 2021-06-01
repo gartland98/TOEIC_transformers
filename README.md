@@ -16,7 +16,9 @@ I've solved toeic part 5 (cloze test) by using several pretrained transformer mo
  
  'question': 'The assets of Marble Faun Publishing Company ___ last quarter when one of their main local distributors went out of business.'} 
  
-<Results>
+ 
+ 
+2. Results
 Best combination: batch:16, epoch:16, learning rate:1e-5, 
 
 models | Bert-base-uncased | Bert-large-uncased | XLnet-base-uncased | XLnet-large-uncased | Electra-base-discriminator | Electra-large-discriminator
