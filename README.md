@@ -12,13 +12,9 @@ batch:16, epoch:16, learning rate:1e-5,
 
 models | Bert-base-uncased | Bert-large-uncased | XLnet-base-uncased | XLnet-large-uncased | Electra-base-discriminator | Electra-large-discriminator
 ---- | ---- | ---- | ---- | ---- | ---- | ---- 
-train accuracy | 99.2 | 99.3 | 96.2 | 98.4 | 뚝배기깹니다 | 98.0
-test accuracy | 87.1 | 90.1 | 88.2 | 92.4 | 뚝배기깹니다 | 91.1
+train accuracy | 99.2 | 99.3 | 96.2 | 98.4 | 92.7 | 98.0
+test accuracy | 87.1 | 90.1 | 88.2 | 92.4 | 85.9 | 91.1
 
-
-models | Albert-base-v1 | Albert-base-v2 | Albert-large-v1 | Albert-large-v2 | Albert-xlarge-v1 | Albert-xlarge-v2 | Albert-xxlarge-v1 | Albert-xxlarge-v2
----- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- 
-train accuracy | 99.2 | 99.3 | 96.2 | 98.4 | 뚝배기깹니다 | 98.0 | 98.0 | 98.0
-test accuracy | 87.1 | 90.1 | 88.2 | 92.4 | 뚝배기깹니다 | 91.1 | 98.0 | 98.0
+I also used Roberta, and Albert models but I couldn't fine-tune Roberta models (I assume it's because I use small number (16, 32) as a batch. Roberta paper use batch size of 256, 2k and 8k) and Albert models shows lower performance compare to models above. Albert-xxlarge-v2 with epoch 5, batch 16 and le-5 shows the best accuracy which was 92.9/89 (train/test) by each.
 
  
