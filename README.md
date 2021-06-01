@@ -8,13 +8,7 @@ I've solved toeic part 5 (cloze test) by using several pretrained transformer mo
 
 1. data format:
 
- {'1': 'suffer',
- '2': 'suffers',
- '3': 'suffering',
- '4': 'suffered',
- 'anwser': 'suffered',
- 
- 'question': 'The assets of Marble Faun Publishing Company ___ last quarter when one of their main local distributors went out of business.'} 
+ {'1': 'suffer', '2': 'suffers', '3': 'suffering', '4': 'suffered','anwser': 'suffered', 'question': 'The assets of Marble Faun Publishing Company ___ last quarter when one of their main local distributors went out of business.'} 
  
  
  
