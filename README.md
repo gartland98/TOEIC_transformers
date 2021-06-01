@@ -17,7 +17,7 @@ test accuracy | 87.1 | 90.1 | 88.2 | 92.4 | 뚝배기깹니다 | 91.1
 
 
 models | Albert-base-v1 | Albert-base-v2 | Albert-large-v1 | Albert-large-v2 | Albert-xlarge-v1 | Albert-xlarge-v2 | Albert-xxlarge-v1 | Albert-xxlarge-v2
----- | ---- | ---- | ---- | ---- | ---- | ---- 
+---- | ---- | ---- | ---- | ---- | ---- | ---- | ----
 train accuracy | 99.2 | 99.3 | 96.2 | 98.4 | 뚝배기깹니다 | 98.0 | 98.0 | 98.0
 test accuracy | 87.1 | 90.1 | 88.2 | 92.4 | 뚝배기깹니다 | 91.1 | 98.0 | 98.0
 
