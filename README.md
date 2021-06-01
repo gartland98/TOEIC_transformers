@@ -10,7 +10,7 @@ Result are as follows:
 
 batch:16, epoch:16, learning rate:1e-5, 
 
-Bert-base-uncased|Bert-large-uncased|
+Bert-base-uncased | Bert-large-uncased | XLnet-base-uncased | XLnet-large-uncased | 
 
 
 머리1 | 머리2 | 머리3 | 뚝배기
