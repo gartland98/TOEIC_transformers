@@ -13,7 +13,8 @@ I've solved toeic part 5 (cloze test) by using several pretrained transformer mo
  '3': 'suffering',
  '4': 'suffered',
  'anwser': 'suffered',
- 'question': 'The assets of Marble Faun Publishing Company ___ last quarter when one of their main local distributors went out of business.'} 
+ 
+ 'question': 'The assets of Marble Faun Publishing Company ___ last quarter when one of their main local distributors went out of business.'} //
  
  
  
