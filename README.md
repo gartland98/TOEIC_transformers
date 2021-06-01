@@ -8,15 +8,14 @@ I've solved toeic part 5 (cloze test) by using several pretrained transformer mo
 
 data format:
 
-Q) The music teacher had me _ scales several times.
-  1. play (Answer)
-  2. to play
-  3. played
-  4. playing
+{'1': 'suffer',
+ '2': 'suffers',
+ '3': 'suffering',
+ '4': 'suffered',
+ 'anwser': 'suffered',
+ 'question': 'The assets of Marble Faun Publishing Company ___ last quarter when one of their main local distributors went out of business.'}
 
-
-Result are as follows: 
-
+<Results>
 batch:16, epoch:16, learning rate:1e-5, 
 
 models | Bert-base-uncased | Bert-large-uncased | XLnet-base-uncased | XLnet-large-uncased | Electra-base-discriminator | Electra-large-discriminator
