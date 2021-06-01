@@ -17,7 +17,7 @@ data format:
  'question': 'The assets of Marble Faun Publishing Company ___ last quarter when one of their main local distributors went out of business.'}
 
 <Results>
-batch:16, epoch:16, learning rate:1e-5, 
+Best combination: batch:16, epoch:16, learning rate:1e-5, 
 
 models | Bert-base-uncased | Bert-large-uncased | XLnet-base-uncased | XLnet-large-uncased | Electra-base-discriminator | Electra-large-discriminator
 ---- | ---- | ---- | ---- | ---- | ---- | ---- 
