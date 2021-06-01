@@ -15,4 +15,10 @@ models | Bert-base-uncased | Bert-large-uncased | XLnet-base-uncased | XLnet-lar
 train accuracy | 99.2 | 99.3 | 96.2 | 98.4 | 뚝배기깹니다 | 98.0
 test accuracy | 87.1 | 90.1 | 88.2 | 92.4 | 뚝배기깹니다 | 91.1
 
+
+models | Bert-base-uncased | Bert-large-uncased | XLnet-base-uncased | XLnet-large-uncased | Electra-base-discriminator | Electra-large-discriminator
+---- | ---- | ---- | ---- | ---- | ---- | ---- 
+train accuracy | 99.2 | 99.3 | 96.2 | 98.4 | 뚝배기깹니다 | 98.0
+test accuracy | 87.1 | 90.1 | 88.2 | 92.4 | 뚝배기깹니다 | 91.1
+
  
