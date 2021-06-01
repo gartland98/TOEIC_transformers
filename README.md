@@ -6,6 +6,15 @@ Achieved over 90% Correct rate with ONLY Pre-Trained XLnet model in TOEIC!!
 
 I've solved toeic part 5 (cloze test) by using several pretrained transformer models. Biggest difference from former research is fine-tuning pretrained model by changing the objective of algorithm from fill in blanks to select the most natural sentence among several choices. To apply huggingface API, first I filled a blank by using every choices and made 4 full sentences. After that, I trained model to choose the most natural sentence by using 'bert(or other models)formultiplechoice' API. I used 3625 questions (train:3200, test: 425 each) which are collected by crawling websites. Because of copyright, I will not open dataset. I used the same data format as graykode toeic bert. Hyperparameters I used for experiment are as follows: batch:16 or 32, epoch 16, learning rate: 2e-5, 1e-5, 5e-6, 1e-6. 
 
+data format:
+
+Q) The music teacher had me _ scales several times.
+  1. play (Answer)
+  2. to play
+  3. played
+  4. playing
+
+
 Result are as follows: 
 
 batch:16, epoch:16, learning rate:1e-5, 
