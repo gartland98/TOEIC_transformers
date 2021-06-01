@@ -10,13 +10,9 @@ Result are as follows:
 
 batch:16, epoch:16, learning rate:1e-5, 
 
-Bert-base-uncased | Bert-large-uncased | XLnet-base-uncased | XLnet-large-uncased | 
-
-
-
-머리1 | 머리2 | 머리3 | 뚝배기
----- | ---- | ---- | ----
-다리 | 다리1 | 다리2 | 뚝배기깹니다
-금 | 의 | 환 | 향
+Bert-base-uncased | Bert-large-uncased | XLnet-base-uncased | XLnet-large-uncased | Electra-base-discriminator | Electra-large-discriminator
+---- | ---- | ---- | ---- | ---- | ---- 
+다리 | 다리1 | 다리2  | 뚝배기깹니다 | 뚝배기깹니다 | 뚝배기깹니다
+금 | 의 | 환 | 향 | 뚝배기깹니다 | 뚝배기깹니다
 
  
